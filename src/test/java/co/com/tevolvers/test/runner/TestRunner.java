@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = {"co.com.tevolvers.test.stepDefinitions", "co.com.tevolvers.test.set.hook"},
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         monochrome = true,
-        tags = "@ShoppingTest"
+        tags = "@RegressionTest"
 
 )
 public class TestRunner {
