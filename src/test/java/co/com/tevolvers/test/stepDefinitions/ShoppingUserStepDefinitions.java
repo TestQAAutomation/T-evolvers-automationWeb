@@ -46,8 +46,6 @@ public class ShoppingUserStepDefinitions {
 
     @Then("user compare price of articles")
     public void userComparePriceOfArticles() {
-        System.out.println(priceItems.getTotalPriceItems()+"SUMA 1");
-        System.out.println(priceItems.getTotalItems()+"SUMA 2");
         user.should(seeThat(ResponseMessage.is(priceItems.getTotalPriceItems()), Matchers.equalTo(priceItems.getTotalItems())).orComplainWith(UnexpectedPrice.class,PRICE));
     }
 }

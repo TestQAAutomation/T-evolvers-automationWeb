@@ -3,16 +3,16 @@ import com.fasterxml.jackson.annotation.*;
 
 public class PriceItems {
 
-    private Integer totalPriceItems;
-    private Integer totalItems;
+    private int totalPriceItems;
+    private int totalItems;
 
     @JsonProperty("TotalPriceItems")
-    public Integer getTotalPriceItems() { return totalPriceItems; }
+    public int getTotalPriceItems() { return totalPriceItems; }
     @JsonProperty("TotalPriceItems")
-    public void setTotalPriceItems(Integer value) { this.totalPriceItems = value; }
+    public void setTotalPriceItems(int value) { this.totalPriceItems = value; }
 
     @JsonProperty("TotalItems")
-    public Integer getTotalItems() { return totalItems; }
+    public int getTotalItems() { return totalItems; }
     @JsonProperty("TotalItems")
-    public void setTotalItems(Integer value) { this.totalItems = value; }
+    public void setTotalItems(int value) { this.totalItems = value; }
 }

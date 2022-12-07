@@ -30,7 +30,7 @@ public class Compare implements Task {
         Integer totalChromeBook = Integer.parseInt(Price.priceItems(webDriver.findElement(By.xpath("//*[@id=\"shoppingCart\"]/table/tbody/tr[1]/td[6]/p")).getText()));
         Integer totalElitePad = Integer.parseInt(Price.priceItems(webDriver.findElement(By.xpath("//*[@id=\"shoppingCart\"]/table/tbody/tr[2]/td[6]/p")).getText()));
         Integer totalPriceItems = totalChromeBook + totalElitePad;
-        priceItems.setTotalItems(totalPriceItems);
+        priceItems.setTotalPriceItems(totalPriceItems);
         Integer totalItems = Integer.parseInt(Price.priceItems(webDriver.findElement(By.xpath("//*[@id=\"shoppingCart\"]/table/tfoot/tr[1]/td[2]/span[2]")).getText()));
         priceItems.setTotalItems(totalItems);
     }

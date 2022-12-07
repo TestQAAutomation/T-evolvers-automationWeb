@@ -5,6 +5,7 @@ import co.com.tevolvers.test.userinterfaces.PopularItems;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
+import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 
@@ -19,6 +20,8 @@ public class Select implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
+        BrowseTheWeb.as(actor).waitFor(10000);
+        BrowseTheWeb.as(actor).waitFor(20000);
         actor.attemptsTo(WaitElement.visible(PopularItems.BUTTON_POPULAR_ITEMS));
         webDriver.findElement(By.xpath("//li[6]//a[@class='menu navLinks roboto-regular ng-scope']")).click();
     }

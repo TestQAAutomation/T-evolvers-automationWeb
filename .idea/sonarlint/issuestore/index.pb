@@ -17,22 +17,14 @@ q
 Asrc/main/java/co/com/tevolvers/test/interactions/WaitElement.java,2\b\2b1493dc78084252de81b0b01b01e592f1c66fed
 s
 Csrc/main/java/co/com/tevolvers/test/exceptions/UnexpectedPrice.java,0\2\02a068992fb79a0dea850a8b36cc9e463eb34392
-j
-:src/main/java/co/com/tevolvers/test/models/PriceItems.java,f\1\f19cdc5c50bd025f8fbb3095ad844478c8be1cdc
-„
-Tsrc/test/java/co/com/tevolvers/test/stepDefinitions/ShoppingUserStepDefinitions.java,c\d\cd5069da85ee27cec8e6668296466acb98389ef1
 r
 Bsrc/main/java/co/com/tevolvers/test/questions/ResponseMessage.java,4\6\4696609651517f0b7e377e35943c2a4be2b875a9
 t
 Dsrc/main/java/co/com/tevolvers/test/userinterfaces/PopularItems.java,2\6\26081e6afe6318f6fb2473be28d2ae9af25944a8
 s
 Csrc/main/java/co/com/tevolvers/test/userinterfaces/SelectItems.java,c\3\c3c516e6f05c56503b60d0a27e4dc5823ef3cc2f
-e
-5src/main/java/co/com/tevolvers/test/tasks/Choose.java,5\3\532d4bbf9099794815638540a33fc505d910bd34
-f
-6src/main/java/co/com/tevolvers/test/tasks/Compare.java,d\e\de1d585d11951d95d5c968eb3509c8e25049f39b
-e
-5src/main/java/co/com/tevolvers/test/tasks/Select.java,1\7\17ffe2ece374adf72cdc1a1434667739fe258694
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
