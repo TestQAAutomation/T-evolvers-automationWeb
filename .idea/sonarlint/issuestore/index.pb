@@ -26,5 +26,15 @@ Csrc/main/java/co/com/tevolvers/test/userinterfaces/SelectItems.java,c\3\c3c516
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+e
+5src/main/java/co/com/tevolvers/test/tasks/Choose.java,5\3\532d4bbf9099794815638540a33fc505d910bd34
+j
+:src/main/java/co/com/tevolvers/test/models/PriceItems.java,f\1\f19cdc5c50bd025f8fbb3095ad844478c8be1cdc
+„
+Tsrc/test/java/co/com/tevolvers/test/stepDefinitions/ShoppingUserStepDefinitions.java,c\d\cd5069da85ee27cec8e6668296466acb98389ef1
+j
+:src/test/java/co/com/tevolvers/test/runner/TestRunner.java,4\0\4048b2377a59a6ea0a947173f6d58667fa2300fc
+f
+6src/main/java/co/com/tevolvers/test/tasks/Compare.java,d\e\de1d585d11951d95d5c968eb3509c8e25049f39b
+e
+5src/main/java/co/com/tevolvers/test/tasks/Select.java,1\7\17ffe2ece374adf72cdc1a1434667739fe258694
